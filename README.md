@@ -4,7 +4,9 @@
 
 ## A Quick Introduction
 
+Maxwell is a millenial with huge appetite for astrology. Well, he never starts a year without looking at predictions to know what the future/year holds for him. Strange, but like you know, different people believe in different things. So, let's kind of not judge Maxwell that soon. 
 
+With a new year approaching very soon, Maxwell decides to work on "Astrozone" - his dream Horoscope prediction website. Can you work along with Maxwell & help him out realise his dream?
 
 ## What should you do
 ```
@@ -31,21 +33,21 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 3. ***Go to Java Resources -> src folder.***
 4. ***You will have 3 packages src/controller, src/service, src/model.***
 5. ***You need to modify src/controller/AstroZoneController, src/service/AstroCalculator, src/model/User.***
-6. ***Once the progressions are completed follow the instructions to run the application and test your code.***
+6. ***Once the progressions are completed, follow the instructions to run the application and test your code.***
  
 ## Run the Project
-1. ***Right - click on the project.***
+1. ***Right click on the project.***
 2. ***Go to Run as -> Run on server.***
 3. ***You can check the output in eclipse browser or in your browser.***
 
 ## Testing
 1. ***Uncomment the code inside Java Resources - src -testing - TestPersonalityCalculator class file.***
-2. ***Right - click on the project***
+2. ***Right click on the project***
 3. ***Go to Run as -> Junit Test.*** 
 4. ***All the testcases must be evaluated.***
 
 ## Input Format
-1. ***There are 4 arugments as input to this application.***
+1. ***There are 4 arguments given as input to this application.***
 2. ***First input is a String which is the user name.***
 3. ***Second input is a String which corresponds to email.***
 4. ***Third input is a LocalDate which corresponds to the birthyear.***
@@ -78,10 +80,8 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 4. ***Print the matching astrology sign***
 ```
 Your details
-Name: FACEPrep.
+Name: FACEPrep
 Age: 4
-Your Astrology: LEO.
+Your Astrology: LEO
 ```
 Happy Coding ProGrad ❤️
-
-
