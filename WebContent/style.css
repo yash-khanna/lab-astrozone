@@ -10,19 +10,35 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
+.header{
+	    display: flex;
+   		 flex-direction: row;
+    	justify-content: center;
+    	margin-top: 177px;
+   
+}
 #logo
 {
-position: absolute;
+	
+	
+/* position: absolute;
 width: 570px;
 height: 80px;
 margin-top: 130px;
-margin-left: 360px;
+margin-left: 360px; */
 }
-#para
-{
-    color:#FFFFFF;
-    position: absolute;
-    width: 620px;
+
+.section{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+    /* position: absolute;  */
+    margin-top:60px;
+/* 	padding-left:440px; */
+}
+.para{
+	
+	width: 620px;
     height: 44px;
     font-family: Montserrat Alternates;
     font-style: normal;
@@ -30,15 +46,15 @@ margin-left: 360px;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    left: 410px;
-    top: 250px;
-    width: 500px;
+	align-items:center;
+    color:#FFFFFF;
+   
+	
 }
 #p2
 {
     width: 520px;
     height: 80px;
-    
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: normal;
@@ -50,7 +66,7 @@ margin-left: 360px;
     
     color: #FFFFFF;
 }
-#button
+ #button
 {
     position: absolute;
     width: 223px;
@@ -58,14 +74,20 @@ margin-left: 360px;
     color: black;
     background-color: #7EC9C5;
     border-radius: 20px;
-    margin-top: 329px;
-    margin-left: 5%;
+
+} 
+.footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin-top:100px;
+	
 }
 #ftr
 {
-    margin-top:20%;
-    margin-bottom:0%;
-    margin-left:0%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
     height: 340px;
     width:100%;
 }
@@ -75,16 +97,20 @@ margin-left: 360px;
     width:266px;
     height:80px;
 }
-form
+.myform
 {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
     font-family: Montserrat Alternates;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 20px;
     /* identical to box height, or 333% */
-    margin-left:35%;
+  margin-top:100px;
     color: #FFFFFF;
+    position:absolute;
 }
 input[type="text"]
 {

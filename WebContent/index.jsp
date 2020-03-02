@@ -9,14 +9,16 @@
     <title>Home</title>
 </head>
 <body id="home">
+<header class="header"> <img src="./assets/Big logo.svg" id="logo"></header>
+	<main class="section">
+		<div class="para">Check your horoscope to discover and make the most of your	life opportunities</div>
+		
+		<form class="myform" action="${pageContext.request.contextPath}/astrozone"	method="post">
+			<input type="submit" value="Check Now" id="button" name="submit">
+		</form>
+	</main>
 
-    <img src="./assets/Big logo.svg" id="logo">
-    <div id="para">
-    <p>Check your horoscope to discover and make the most of your life opportunities</p>
-    </div>
-    <form  action="/lab-java-astrozone/astrozone" method="post">
-    <input type="submit" value="Check Now" id="button" name="submit">
-    </form> 
-    <img src="./assets/Footer.svg" id="ftr">
+	<footer class="footer"><img src="./assets/Footer.svg" id="ftr"></footer> 
+    
 </body>
 </html>
