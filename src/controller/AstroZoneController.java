@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Astrozone_entervalues;
-import service.AstrozoneCalculator;
+import model.User;
+import service.AstroCalculator;
 
 ///**
 // * Servlet implementation class AstroZoneController

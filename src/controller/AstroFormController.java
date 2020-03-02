@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Astrozone_entervalues;
-import service.AstrozoneCalculator;
+import model.User;
+import service.AstroCalculator;
 
 @WebServlet(urlPatterns = {"/entervalue"})
-public class EntervaluesController extends HttpServlet {
+public class AstroFormController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -34,8 +34,8 @@ public class EntervaluesController extends HttpServlet {
 		String dob = date+"-"+month+"-"+year;
 	
 		
-		Astrozone_entervalues astro = new Astrozone_entervalues(name,gender,dob);
-		AstrozoneCalculator zodiac=new AstrozoneCalculator();
+		User astro = new User(name,gender,dob);
+		AstroCalculator zodiac=new AstroCalculator();
 		
 		astro.setName(name);
 		astro.setGender(gender);

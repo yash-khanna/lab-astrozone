@@ -1,15 +1,15 @@
 package service;
 
-import model.Astrozone_entervalues;
+import model.User;
 
-public class AstrozoneCalculator {
+public class AstroCalculator {
 	
-public String toString(Astrozone_entervalues person) 
+public String toString(User person) 
 	{
 		return "Name:"+person.getName()+"\nGender:"+person.getGender()+"\nDOB:"+person.getDob();
 	}
 
-public String findSign(Astrozone_entervalues person) {
+public String findSign(User person) {
 	String[] date=person.getDob().split("-");
 	System.out.println(date);
 	int day=Integer.parseInt(date[0]);

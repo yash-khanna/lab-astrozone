@@ -1,11 +1,12 @@
 package model;
+
 import java.time.LocalDate;
 
-public class Astrozone_entervalues {
+public class User {
 	private String name;
 	private String gender;
 	private String dob;
-	public Astrozone_entervalues(String name, String gender, String dob){
+	public User(String name, String gender, String dob){
 		this.name = name;
 		this.gender = gender;
 		this.dob = dob;
