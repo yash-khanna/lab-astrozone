@@ -14,9 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import model.User;
 import service.AstroCalculator;
 
-///**
-// * Servlet implementation class AstroZoneController
-// */
 @WebServlet(urlPatterns = {"/astrozone"})
 public class AstroZoneController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -26,9 +23,6 @@ public class AstroZoneController extends HttpServlet {
 		rd.forward(request, response);
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String submit = request.getParameter("submit");
 		if (submit != null) {
