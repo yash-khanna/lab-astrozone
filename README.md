@@ -53,7 +53,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 1. ***Create a class called User inside the model package with the following arguments***
    - ***String name***
    - ***String email***
-   - ***LocalDate dob***
+   - ***String dob***
    - ***String gender***
 2. ***Generate appropriate getters and setters.***
 3. ***Generate a 4-argument constructor in the User class.***
