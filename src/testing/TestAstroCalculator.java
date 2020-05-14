@@ -1,6 +1,6 @@
 package testing;
 
-/* Uncomment the below to test code
+//Uncomment the below to test code
 import static org.junit.Assert.*;
 import org.junit.Test;
 
@@ -9,7 +9,6 @@ import service.AstroCalculator;
 
 public class TestAstroCalculator {	
 	AstroCalculator astrocal = new AstroCalculator();
-	@Test
 	public void testFindSignMethod() {
 		User astro = new User("Clara","female","03-11-1997");
 		assertEquals("Scorpio",astrocal.findSign(astro));
@@ -31,4 +30,4 @@ public class TestAstroCalculator {
 	}
 	
 }
-*/
+
